@@ -1,5 +1,8 @@
 # 🌙 CJajlk Studio
 
+🌐 Site en ligne
+https://cjajlk.github.io/cjajlkstudio/
+
 Portfolio personnel présentant mes projets de création numérique.
 
 Ce site rassemble différents projets liés aux jeux, aux applications et aux univers créatifs développés de manière indépendante.
