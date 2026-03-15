@@ -1,0 +1,363 @@
+body{
+
+margin:0;
+font-family:Arial, sans-serif;
+background:#0e0e18;
+color:white;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+height:100vh;
+background:url("../assets/images/bureau.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+text-align:center;
+
+}
+
+.hero-overlay{
+
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(10,10,25,0.6);
+
+
+}
+
+.hero-content{
+
+position:relative;
+z-index:2;
+
+}
+
+.hero h1{
+
+font-size:60px;
+letter-spacing:3px;
+margin-bottom:10px;
+
+}
+
+.hero p{
+
+font-size:20px;
+opacity:0.9;
+
+}
+
+.btn{
+
+display:inline-block;
+margin-top:20px;
+
+background:#7c6cff;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-size:18px;
+
+}
+
+
+/* SECTION */
+
+.section{
+
+padding:80px 10%;
+
+}
+
+.section h2{
+
+
+text-align:center;
+margin-bottom:40px;
+
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(180,120,255,0.6);
+}
+
+
+/* GRID */
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+
+}
+
+
+/* CARD */
+
+.card{
+
+background: rgba(40, 20, 70, 0.8);
+padding: 25px;
+border-radius: 12px;
+margin-bottom: 25px;
+transition: transform 0.25s ease, box-shadow 0.25s ease;
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+
+.card:hover {
+
+transform: translateY(-6px);
+box-shadow: 0 10px 25px rgba(150, 80, 255, 0.4);
+
+}
+
+.card h3{
+
+color:#9a8cff;
+
+}
+
+.card a{
+  display:inline-block;
+  margin-top:12px;
+  padding:8px 18px;
+  background:#7c6cff;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  font-size:14px;
+}
+
+.card a:hover{
+  background:#9388ff;
+}
+
+
+/* SKILLS */
+
+.skills{
+
+text-align:center;
+line-height:35px;
+font-size:18px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+text-align:center;
+padding:40px;
+background:#111;
+
+}
+
+
+/* FADE ANIMATION */
+
+.fade{
+
+opacity:0;
+transform:translateY(40px);
+transition:all 0.8s ease;
+
+}
+
+.fade.show{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+.neon-title{
+
+font-size:60px;
+letter-spacing:3px;
+color:white;
+
+text-shadow:
+0 0 5px #fff,
+0 0 10px #9a8cff,
+0 0 20px #9a8cff,
+0 0 40px #7c6cff,
+0 0 80px #7c6cff;
+
+animation:neonPulse 3s ease-in-out infinite;
+
+}
+
+@keyframes neonPulse{
+
+0%{
+text-shadow:
+0 0 5px #fff,
+0 0 10px #9a8cff,
+0 0 20px #9a8cff,
+0 0 40px #7c6cff;
+}
+
+50%{
+text-shadow:
+0 0 10px #fff,
+0 0 20px #b8aaff,
+0 0 40px #9a8cff,
+0 0 80px #7c6cff;
+}
+
+100%{
+text-shadow:
+0 0 5px #fff,
+0 0 10px #9a8cff,
+0 0 20px #9a8cff,
+0 0 40px #7c6cff;
+}
+
+}
+
+.status-playable {
+  color: #8fd18f;
+}
+
+.status-dev {
+  color: #ffd36e;
+}
+
+.timeline{
+  max-width:800px;
+  margin:auto;
+}
+
+.timeline-item{
+  background:#1a1a2e;
+  padding:20px;
+  border-left:4px solid #7c6cff;
+  margin-bottom:20px;
+  border-radius:6px;
+}
+
+.timeline-item h3{
+  color:#9a8cff;
+  margin-bottom:10px;
+}
+
+.intro{
+  color:#d8d8ff;
+  font-size:18px;
+  text-align:center;
+  margin:40px auto;
+  max-width:700px;
+}
+
+.tech{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:15px;
+  margin-top:20px;
+}
+
+.tech span{
+  background:#1a1a2e;
+  padding:8px 16px;
+  border-radius:20px;
+  font-size:14px;
+  border:1px solid #7c6cff;
+}
+
+.learning{
+  max-width:700px;
+  margin:auto;
+  line-height:28px;
+}
+
+.learning ul{
+  margin-top:20px;
+}
+
+.learning li{
+  margin-bottom:8px;
+}
+
+/* NAVBAR */
+
+.navbar{
+    position: fixed;
+    top:0;
+    width:100%;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background: rgba(10,5,25,0.7);
+    backdrop-filter: blur(6px);
+    z-index:1000;
+}
+
+.nav-logo{
+    font-weight:600;
+    font-size:18px;
+    color:white;
+}
+
+.nav-links a{
+    margin-left:25px;
+    text-decoration:none;
+    color:#ddd;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#b47cff;
+}
+
+/* SOCIAL LINKS */
+
+.social-links{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+
+.social-links a{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  text-decoration:none;
+  padding:10px 18px;
+  border-radius:8px;
+  background:rgba(120,60,255,0.15);
+  color:white;
+  transition:0.3s;
+}
+
+.social-links a:hover{
+  background:rgba(150,80,255,0.4);
+  transform:translateY(-3px);
+}
+
+.social-links i{
+  font-size:18px;
+}
