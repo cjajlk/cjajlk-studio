@@ -1,31 +1,37 @@
-# CJajlk Studio
+# 🌙 CJajlk Studio
 
 Portfolio personnel présentant mes projets de création numérique.
 
 Ce site rassemble différents projets liés aux jeux, aux applications et aux univers créatifs développés de manière indépendante.
 
-## Contenu du portfolio
+---
+
+## 🎮 Projets
 
 Ce portfolio présente :
 
-- des jeux jouables
-- des prototypes en développement
-- des applications expérimentales
-- des projets créatifs (livres et peintures)
-- les technologies que j'explore actuellement
+- Jeux jouables
+- Prototypes en développement
+- Applications expérimentales
+- Univers créatifs (livres et peintures)
+- Outils personnels
 
-## Projets liés
+---
 
-CJajlkGames  
+## 🌐 Écosystème CJajlk
+
+🔹 **CJajlkGames**  
 https://cjajlk.github.io/cjajlkGames/
 
-CJajlkBook  
+🔹 **CJajlkBook**  
 https://cjajlk.github.io/cjajlkbook/
 
-CJajlkArt  
+🔹 **CJajlkArt**  
 https://cjajlk.github.io/cjajlkart/
 
-## Technologies utilisées
+---
+
+## 🧰 Technologies explorées
 
 - HTML
 - CSS
@@ -33,11 +39,20 @@ https://cjajlk.github.io/cjajlkart/
 - Python
 - Blender (3D)
 - OBS Studio
+- Expérimentation Google Play
 
-## Objectif
+---
+
+## 🚀 Objectif
 
 Développer progressivement un studio indépendant de création numérique et expérimenter différents types de projets interactifs.
 
 ---
 
+## 📌 Statut
+
 Projet personnel en évolution.
+
+---
+
+© CJajlk Studio
